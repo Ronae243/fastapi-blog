@@ -5,3 +5,8 @@ SQLAlchemy==2.0.13 #help translate database tables as class object
 psycopg2==2.9.6 #adapter for SQLAlchemy to communicate 
 
 python-dotenv==1.0.0
+
+pydantic[email] #for email validation 
+
+
+passlib[bcrypt] #Password hashing 
